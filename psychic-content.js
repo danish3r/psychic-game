@@ -4,10 +4,13 @@ var noOfWin = 0;
 var noOfLoss = 0;
 
 function ask() {
+  console.log(
+    "\n- - - - - - - - - - - - - - - - - - -\nWELCOME TO THE GAME PSYCHIC .____."
+  );
   let randomString = getRandomString();
   console.log("the random string: " + randomString);
   let triedString = "";
-  let maxNoTries = 10;
+  let maxNoTries = 5;
   let triesLeft = maxNoTries;
 
   const askQ = () => {
@@ -19,7 +22,9 @@ function ask() {
       if (ourAnswer === randomString) {
         // wins++
         noOfWin++;
-
+        console.log("\n \n- - - - - - - - - - - - - - - - - - - ");
+        console.log("HOOOORAAAAAAAAY YOU GOT IT RIGHT :)");
+        console.log("\n \n- - - - - - - - - - - - - - - - - - - ");
         ask();
         return;
       }
@@ -28,6 +33,9 @@ function ask() {
         // if out of trials then: loss++
         if (triesLeft < 1) {
           noOfLoss++;
+          console.log("\n \n- - - - - - - - - - - - - - - - - - - ");
+          console.log("SORRY TRY THE NEXT ROUND :(");
+          console.log("- - - - - - - - - - - - - - - - - - - \n \n");
           ask();
           return;
         }
