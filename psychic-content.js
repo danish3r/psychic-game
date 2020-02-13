@@ -5,7 +5,7 @@ var noOfLoss = 0;
 
 function ask() {
   console.log(
-    "\n- - - - - - - - - - - - - - - - - - -\nWELCOME TO THE GAME PSYCHIC .____."
+    "\n- - - - - - - - - - - - - - - - - - -\nWELCOME TO THE GAME OF PSYCHIC .____."
   );
   let randomString = getRandomString();
   console.log("the random string: " + randomString);
