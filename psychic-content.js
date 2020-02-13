@@ -49,21 +49,6 @@ function ask() {
     });
   };
   askQ();
-  // random letter gen: https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript
-  /*inquirer.prompt(question1).then(answer => {
-            if (answer.text !== "i") {
-                inquirer.prompt(question1);
-            }
-            inquirer
-                .prompt(question2)
-                .then(answers => {
-                    if (questtion2.answer === "j") {
-                        inquirer.prompt(question1);
-                    } else {
-                        inquirer.prompt(question2);
-                    }
-                });
-        }*/
 }
 
 function getRandomString() {
