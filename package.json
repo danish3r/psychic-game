@@ -1,0 +1,22 @@
+{
+  "name": "psychic-game",
+  "version": "1.0.0",
+  "description": ":)",
+  "main": "psychic-content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danish3r/psychic-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danish3r/psychic-game/issues"
+  },
+  "homepage": "https://github.com/danish3r/psychic-game#readme",
+  "dependencies": {
+    "inquirer": "^7.0.4"
+  }
+}
